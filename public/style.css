@@ -1,0 +1,96 @@
+body {
+  background-color: lightblue;
+  text-align: center;
+  padding-top: 70px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.input{
+  align: center;
+  width: 150px;
+  text-align: center;
+}
+
+.submitBtn {
+  background-color: black;
+  color: white;
+  border: 1px solid #ffcc5c;
+}
+.deleteBtn {
+  background-color: black;
+  color: white;
+  border: 1px solid #ffcc5c;
+}
+
+.changeBtn{
+  background-color: black;
+  color: white;
+  border: 1px solid #ffcc5c;
+  margin-top: 10px;
+}
+
+.deleteSection {
+  margin: 20px;
+}
+
+th, td {
+  border-right: 1px solid black;
+
+  align-items: center;
+  margin-top: 10px;
+}
+
+.bottom {
+  border-top: 1px solid black;
+}
+.right {
+  border-right: none;
+}
+
+table {
+  border: 2px solid black;
+  align-items: center;
+  margin-top: 50px;
+}
+
+td {
+  padding: 7px
+}
+
+th {
+  padding: 5px
+}
+
+.workoutItems {
+  align-items: center;
+
+}
+
+
+table {
+  /* width: 50%; */
+  width:50%;
+  margin-left:22%;
+  margin-right:15%;
+  /* justify-content: center; */
+}
+
+.modalBackground {
+  opacity: 0;
+  pointer-events:  none;
+}
+
+.modalShowing-true {
+  opacity: 1;
+  pointer-events: all;
+}
