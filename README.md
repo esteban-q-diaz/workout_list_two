@@ -1,14 +1,11 @@
-
-https://user-images.githubusercontent.com/72105592/111017805-4efe6900-836a-11eb-8569-50bc3062db3a.mp4
-
 # Workout List
 
 Workout List is an application that allows users to create a workout routine.  In this application users can create a list of workouts, reps and sets.
 
+You can find a video of the application here:
+https://user-images.githubusercontent.com/72105592/111017805-4efe6900-836a-11eb-8569-50bc3062db3a.mp4
 
-![caption](https://linkedinpromo.s3-us-west-1.amazonaws.com/Screen+Recording+2021-03-12+at+7.02.32+PM.mov)
-
-<blockquote class="imgur-embed-pub" lang="en" data-id="tpAomOf" data-context="false" ><a href="//imgur.com/tpAomOf"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+![](https://linkedinpromo.s3-us-west-1.amazonaws.com/workoutlist.png)
 
 # Setup
 
