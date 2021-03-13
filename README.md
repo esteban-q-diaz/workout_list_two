@@ -12,6 +12,15 @@ App demo:
 * npm start
 * fill in database information
 
+# Tech Stack
+
+* React
+* NodeJS
+* Express
+* MySQL
+* Axios
+* Webpack
+
 # Goal for this project
 
 My goal for this project was to create a React CRUD (Create, Read, Update, Delete) Full Stack Application.
