@@ -14,6 +14,7 @@ function WorkoutListItems ({ workoutlist, deleteClick, updateClick, onNameChange
   return (
     <div >
       <table className="workoutItems">
+      <tbody>
         <tr className="workoutItems">
           <th>NAME</th>
           <th>REPS</th>
@@ -24,6 +25,7 @@ function WorkoutListItems ({ workoutlist, deleteClick, updateClick, onNameChange
           <td className="bottom">{workoutlist.reps}</td>
           <td className="bottom right">{workoutlist.sets}</td>
         </tr>
+        </tbody>
       </table>
       <div className="deleteSection ">
         <input type="submit" value="Delete" className="deleteBtn d" onClick={()=> {deleteClick(workoutlist.id)}}/>

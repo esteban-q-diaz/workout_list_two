@@ -1,26 +1,26 @@
 const express = require ('express');
+const app = express();
+const path = require('path')
 const PORT = 3000;
 const db = require('../database/index.js')
-const cors = require('cors');
 const bodyParser = require('body-parser')
-// const path = require('path')
 
-const app = express();
+const cors = require('cors');
+
 
 app.use(cors())
 
-// app.use(express.static(path.join(__dirname, '..', 'public')));
+app.use('/', express.static(path.join(__dirname, '..', 'public')));
+
 app.use(bodyParser.urlencoded({ extended: false}));
 app.use(bodyParser.json())
 
-
 app.get('/getworkoutlist', (req, res)=> {
-  // res.send('resss')
-  db.getWorkoutList((err, data) => {
+  db.getWorkoutList((err, result) => {
     if (err) {
-      res.status(404).send(err)
+      console.log(err)
     } else {
-      res.status(202).send(data)
+      res.send(result)
     }
   })
 })

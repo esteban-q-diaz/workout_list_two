@@ -3,9 +3,9 @@ var mysql = require('mysql');
 
 var connection = mysql.createConnection({
   host: 'localhost',
-  user: 'root',
-  password: 'cowboyz',
-  database: 'workout_list_two',
+  user: 'FILL_ME_IN',
+  password: 'FILL_ME_IN',
+  database: 'FILL_ME_IN',
 })
 
 
@@ -17,7 +17,7 @@ function getWorkoutList (callback) {
     if (err) {
       callback(err)
     } else {
-      callback(data)
+      callback(null, data)
     }
   })
 }
@@ -30,7 +30,7 @@ function postWorkoutList (params, callback) {
     if(err) {
       callback(err)
     } else {
-      callback(data)
+      callback(null, data)
     }
   })
 }
@@ -42,7 +42,7 @@ function deleteWorkout(params, callback) {
     if (err) {
       callback(err)
     } else {
-      callback(data)
+      callback(null, data)
     }
   })
 }
@@ -54,7 +54,7 @@ function updateNameWorkout (params, callback) {
     if (err) {
       callback(err)
     } else {
-      callback(data)
+      callback(null, data)
     }
   })
 }
