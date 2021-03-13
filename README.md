@@ -5,7 +5,6 @@ Workout List is an application that allows users to create a workout routine.  I
 App demo:
 
 ![](https://i.imgur.com/tpAomOf.gif)
-![](https://rei-bucket-fec.s3-us-west-1.amazonaws.com/REI+Display.gif)
 
 # Setup
 
